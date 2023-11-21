@@ -11,7 +11,7 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/CodigoSalvoVue',
+    path: '/:id',
     name: 'CodigoSalvoVue',
     component: CodigoSalvoVue
   },

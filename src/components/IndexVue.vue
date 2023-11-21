@@ -123,7 +123,7 @@ export default {
                         alert('Ops, algo deu errado, tente novamente xD')
                     } else {
                         this.showModal = true
-                        this.link = `http://localhost:8080/${payload.id}`
+                        this.link = `https://ctrl-v-vercel-carlos-alberto-claudio-de-limas-projects.vercel.app/${payload.id}`
                         this.codigo = ''
                     }
                 })

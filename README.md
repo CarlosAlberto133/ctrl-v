@@ -1,4 +1,8 @@
-# ctrlv
+# ctrl-v
+
+<p align="center">
+    <img width="600px" height="337px" src="src/assets/ctrlv.gif" />
+</p>
 
 ## Project setup
 ```
