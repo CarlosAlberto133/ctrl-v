@@ -4,14 +4,14 @@ import 'firebase/compat/database';
 export const firebaseMixin = { 
   created() {
     const firebaseConfig = {
-      apiKey: "AIzaSyD1cJMmOrv48EZq8nKq04qIlXUIP-Htm7o", 
-      authDomain: "ctrl-v-83011.firebaseapp.com",
-      databaseURL: "https://ctrl-v-83011-default-rtdb.firebaseio.com",
-      projectId: "ctrl-v-83011",
-      storageBucket: "ctrl-v-83011.appspot.com",
-      messagingSenderId: "1052023525697",
-      appId: "1:1052023525697:web:ca15d4c868c3ea077191c0",
-      measurementId: "G-DCFDDVBGN0"
+      apiKey: process.env.VUE_APP_API_KEY, 
+      authDomain: process.env.VUE_APP_AUTH_DOMAIN,
+      databaseURL: process.env.VUE_APP_DATA_BASE_URL,
+      projectId: process.env.VUE_APP_PROJECT_ID,
+      storageBucket: process.env.VUE_APP_STORAGE_BUCKET,
+      messagingSenderId: process.env.VUE_APP_MESSAGING_SENDER_ID,
+      appId: process.env.VUE_APP_APP_ID,
+      measurementId: process.env.VUE_APP_MEASUREMENT_ID
     } 
 
     firebase.initializeApp(firebaseConfig)
